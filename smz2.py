@@ -74,7 +74,7 @@ def token3():
 		tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
 		tokenw = open(".token.txt", "w").write(tok)
 		cokiew = open(".cok.txt", "w").write(cookie)
-		os.system('python smz.py')
+		os.system('python smok.py')
 		#print('\nLogin Berhasil , file tersimpan di token.txt & cok.txt')
 	except Exception as e:
 		os.system('rm -rf cok.txt && rm -rf token.txt')
