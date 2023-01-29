@@ -17,7 +17,7 @@ $ pip install --upgrade pip
 $ git clone https://github.com/LUXINE-DEV17/smz
 $ ls ( L kecil )
 $ cd smz
-$ python smok.py
+$ python smz2.py
 ```
 ## METODE
 
